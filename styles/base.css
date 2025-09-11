@@ -1,0 +1,90 @@
+/* Base Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #004466;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+#course-title {
+  display: block;
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #004466;
+}
+
+/* Main Content */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Lora', serif;
+  color: #004466;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card img {
+  max-width: 200px;
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+
+.card p {
+  flex: 1;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #004466;
+  color: white;
+  font-size: 0.9rem;
+}
