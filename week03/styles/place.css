@@ -94,6 +94,13 @@ main {
     text-align: center;
 }
 
+.weather-icon-large::before {
+    content: "☀️"; 
+    font-size: 1.5em;
+    color: var(--accent-color);
+    margin-right: 0.5rem;
+}
+
 .weather-icon-mobile {
     width: 70px;
     height: 70px;
@@ -169,9 +176,5 @@ main {
     
     .weather-icon-large {
         display: inline;
-    }
-    
-    .data-card:not(:nth-child(2)), .weather-card:not(:nth-child(3)) {
-        display: none;
     }
 }
