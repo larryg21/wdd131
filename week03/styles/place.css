@@ -73,10 +73,10 @@ main {
 .card {
     background-color: var(--card-bg);
     padding: 1rem;
-    border-radius: 0;
-    box-shadow: none;
-    border: none;
-    margin-bottom: 0;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    border: var(--card-border);
+    margin: 1rem 0;
 }
 
 .card h2 {
@@ -98,6 +98,7 @@ main {
     width: 70px;
     height: 70px;
     margin: 0 auto 0.5rem;
+    display: block;
 }
 
 .weather-icon-mobile img {
@@ -172,14 +173,5 @@ main {
     
     .data-card:not(:nth-child(2)), .weather-card:not(:nth-child(3)) {
         display: none;
-    }
-}
-
-@media (max-width: 699px) {
-    .data-card, .weather-card {
-        margin: 1rem 0;
-        border-radius: 8px;
-        box-shadow: var(--card-shadow);
-        border: var(--card-border);
     }
 }
