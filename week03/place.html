@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Santa Marta, Colombia</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Santa Marta, Colombia</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/santa-marta-large.webp" media="(min-width: 700px)">
+                <img src="images/santa-marta.webp" alt="Beach view of Tayrona National Park" 
+                     width="500" 
+                     height="500">
+            </picture>
+        </div>
+
+        <div class="card data-card">
+            <h2>Data</h2>
+            <p>Population: 550,000</p>
+            <p>Language: Spanish</p>
+            <p>Capital: Bogotá (National)</p>
+            <p>Founding Date: July 29, 1525</p>
+            <p>Time Zone: UTC-5</p>
+            <p>Elevation: 2 meters</p>
+        </div>
+
+        <div class="card weather-card">
+            <h2>Weather <span class="weather-icon-large"></span></h2>
+            <div class="weather-details">
+                <div class="weather-icon-mobile"><img src="images/weather-icon.svg" alt="Weather icon"></div> 
+                <p>Temperature: <span id="temp-static">30 °C</span></p>
+                <p>Wind Speed: <span id="speed-static">20 km/h</span></p>
+                <p>Wind Chill: <span id="windchill">N/A</span></p>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Larry Gomez | Santa Marta</p>
+        <p>Last Modified: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
