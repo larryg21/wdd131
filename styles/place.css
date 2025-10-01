@@ -54,6 +54,7 @@ main {
     padding: 0 1rem;
 }
 
+
 .hero {
     position: relative;
     width: 100%;
@@ -94,7 +95,8 @@ main {
     text-align: center;
 }
 
-.weather-icon-large::before {
+
+.weather-icon-large::after {
     content: "☀️"; 
     font-size: 1.5em;
     color: var(--accent-color);
@@ -117,6 +119,7 @@ main {
 .weather-icon-large {
     display: none;
 }
+
 
 @media (min-width: 700px) {
     main {
