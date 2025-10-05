@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native Lazy Loading Demo</title>
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <meta name="description" content="Demonstration of native browser lazy loading for images.">
+    <meta name="author" content="Larry Gomez">
+</head>
+<body>
+    <header>
+        <h1>Native Browser Lazy Loading Demonstration</h1>
+    </header>
+
+    <main>
+
+        
+        <img src="https://placedog.net/400/650" 
+             alt="A small puppy in portrait format" 
+             width="400" height="650" 
+             loading="lazy"
+             class="fade-in-img">
+
+        <p>A fun fact about these loyal companions is that a dog's nose print is completely unique, much like a human fingerprint, and can be used for identification!</p>
+
+        <img src="https://placedog.net/400/700" 
+             alt="A small puppy in portrait format" 
+             width="400" height="700" 
+             loading="lazy"
+             class="fade-in-img">
+
+        <img src="https://placedog.net/400/750" 
+             alt="A small puppy in portrait format" 
+             width="400" height="750" 
+             loading="lazy"
+             class="fade-in-img">
+
+        <img src="https://placedog.net/400/800" 
+             alt="A small puppy in portrait format" 
+             width="400" height="800" 
+             loading="lazy"
+             class="fade-in-img">
+             
+        <img src="https://placedog.net/400/850" 
+             alt="A small puppy in portrait format" 
+             width="400" height="850" 
+             loading="lazy"
+             class="fade-in-img">
+
+        <img src="https://placedog.net/400/900" 
+             alt="A small puppy in portrait format" 
+             width="400" height="900" 
+             loading="lazy"
+             class="fade-in-img">
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Larry Gomez | Lazy Loading Activity</p>
+        <p>Last Modified: <span id="lastmodified"></span></p>
+    </footer>
+
+    <script src="scripts/lazyload.js"></script>
+</body>
+</html>
