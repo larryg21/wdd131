@@ -62,7 +62,7 @@ footer {
 }
 
 .wireframe img {
-    max-width: 100%;
+    max-width: 20%;
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     margin-top: 1rem;
