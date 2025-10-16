@@ -109,17 +109,17 @@ padding: 1rem;
 margin-top: 2rem;
 }
 
-footer a {
+footer p a,
+footer a:link,
+footer a:visited {
   color: #ffffff !important;
   text-decoration: none;
-  font-weight: bold;
 }
 
-footer a:hover {
+footer a:hover,
+footer a:active {
   color: #f97316 !important;
 }
-
-
 
 blockquote {
 font-style: italic;
