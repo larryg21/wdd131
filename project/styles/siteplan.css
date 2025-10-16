@@ -110,13 +110,13 @@ margin-top: 2rem;
 }
 
 footer a {
-  color: #ffffff;
+  color: #ffffff !important;
   text-decoration: none;
   font-weight: bold;
 }
 
 footer a:hover {
-  color: #f97316;
+  color: #f97316 !important;
 }
 
 
